@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>შეფასების გვერდი</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>გთხოვთ შეაფასოთ ჩემი პროექტი</h1>
+        <div id="rating-section">
+            <label for="rating">შეფასება (0-10): </label>
+            <input type="number" id="rating" min="0" max="10" placeholder="შეიყვანეთ შეფასება">
+            <button id="submit-rating">გააკეთე შეფასება</button>
+        </div>
+        <div id="thank-you-message" style="display:none;">
+            <h2>მადლობა შეფასებისთვის!</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
